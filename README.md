@@ -1,20 +1,65 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Hack Computer Architecture
 
-# Run and deploy your AI Studio app
+This project is an interactive, browser-based simulator and portfolio project for exploring the construction of the Hack computer from first principles. It walks through the journey from a primitive NAND gate to a complete 16-bit computer, combining visual diagrams, logic simulation, and educational explanations.
 
-This contains everything you need to run your app locally.
+## What this project covers
 
-View your app in AI Studio: https://ai.studio/apps/55720b20-8a32-4d1b-8a98-38eec0c8078e
+- The building blocks of digital logic, including NAND, NOT, AND, OR, XOR, and multiplexers
+- The design of key chips such as Adders, ALU, Registers, RAM, and the CPU
+- A visual hierarchy of the Hack computer architecture
+- Interactive labs for understanding the ALU and computer-level behavior
+- A portfolio-style presentation of the system as a learning experience
 
-## Run Locally
+## Key features
 
-**Prerequisites:**  Node.js
+- Interactive chip explorer with hierarchical navigation
+- ALU lab for testing and visualizing arithmetic and logical operations
+- CPU and computer simulator views for seeing the architecture in action
+- Educational diagrams and explanations for each stage of the build
+- Responsive React + Vite interface for local exploration
 
+## Tech stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Motion for UI animations
+
+## Getting started
+
+### Prerequisites
+
+- Node.js 18+ recommended
+- npm
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+Then open the local Vite URL shown in the terminal.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## Project structure
+
+- src/components — UI views, diagrams, and interactive simulators
+- src/data — HDL chip database and educational content
+- src/utils — logic simulation helpers
+- src/types.ts — shared TypeScript types
+
+## Purpose
+
+This project is designed for learners, educators, and enthusiasts who want to see how a computer is assembled from simple logic gates and how the Hack architecture emerges step by step.
