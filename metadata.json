@@ -1,0 +1,6 @@
+{
+  "name": "Aarush Hadimani - Nand2Tetris Hack Computer",
+  "description": "From a single NAND gate to a complete 16-bit computer, this interactive project showcases the step-by-step construction of the Hack computer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

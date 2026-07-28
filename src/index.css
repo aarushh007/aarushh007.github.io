@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap');
+
+@layer utilities {
+  .bg-blueprint {
+    background-image: radial-gradient(rgba(34, 211, 238, 0.12) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  .glow-cyan {
+    text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+  }
+  .glow-box-cyan {
+    box-shadow: 0 0 15px rgba(34, 211, 238, 0.25);
+  }
+  .chip-active {
+    background: rgba(34, 211, 238, 0.1);
+    border-left: 3px solid #22d3ee;
+    color: #ffffff;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #05070a;
+  color: #a1b0c8;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
